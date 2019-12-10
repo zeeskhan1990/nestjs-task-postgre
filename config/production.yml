@@ -1,0 +1,6 @@
+db:
+  synchronize: false
+  ssl: false
+
+server:
+  origin: http://nestjs-task-management-frontend-zeeshan.s3-website.ap-south-1.amazonaws.com

@@ -1,0 +1,10 @@
+db:
+  host: 'ec2-107-21-94-185.compute-1.amazonaws.com'
+  username: 'eqqdybboqbitap'
+  password: '485d1126f242029acff4e29b313ad7cd9921e96fea87b875d0a8c65ac9503c50'
+  synchronize: true
+  ssl: true
+
+jwt:
+  secret: 'zeeshan'
+  
