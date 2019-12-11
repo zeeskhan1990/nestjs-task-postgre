@@ -1,6 +1,13 @@
+# db - host, username, password, synchronize (false), ssl(false), jwt - secret are all provided by aws in actual prod
 db:
-  synchronize: false
-  ssl: false
+  host: 'ec2-107-21-94-185.compute-1.amazonaws.com'
+  username: 'eqqdybboqbitap'
+  password: '485d1126f242029acff4e29b313ad7cd9921e96fea87b875d0a8c65ac9503c50'
+  synchronize: true
+  ssl: true
+
+jwt:
+  secret: 'zeeshan'
 
 server:
   origin: http://nestjs-task-management-frontend-zeeshan.s3-website.ap-south-1.amazonaws.com
